@@ -1,0 +1,31 @@
+.task__container {
+  padding: 20px;
+}
+
+.user-info label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.user-info__age {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px;
+  max-width: 200px;
+  width: 100%;
+}
+.user-info__age--green {
+  background-color: green;
+}
+.user-info__age--yellow {
+  background-color: yellow;
+}
+.user-info__age--orange {
+  background-color: orange;
+}
+.user-info__age--wrong {
+  border-color: red;
+  outline: red;
+}
+
+/*# sourceMappingURL=generals.css.map */

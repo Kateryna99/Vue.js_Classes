@@ -1,0 +1,39 @@
+.task{
+  &__container{
+    padding: 20px;
+  }
+}
+
+.user-info{
+  display: flex;
+  gap: 40px;
+  label{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__data{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px;
+
+    max-width: 200px;
+    width: 100%;
+    &--green{
+      background-color: green;
+    }
+    &--yellow{
+      background-color: yellow;
+    }
+    &--orange{
+      background-color: orange;
+    }
+    &--wrong{
+      border-color: red;
+      outline: red;
+    }
+    &--red{
+      background-color: red;
+    }
+  }
+}
