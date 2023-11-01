@@ -25,19 +25,36 @@ export default {
       supplierValue: [],
     }
   },
-  //ДО КІНЦЯ , НАЖАЛЬ, НЕ ЗРОЗУМІЛА ЯК ТУТ ПРАВИЛЬНО ПРОФІЛЬТРУВАТИ. ДОПОМОЖІТЬ, БУДЬ ЛАСКА
+
   computed:{
     getProductList(){
-      if(this.brandValue.length && this.supplierValue.length ){
+      /*if(this.brandValue.length && this.supplierValue.length ){
         return (this.products.filter(item=> this.supplierValue.includes(item.supplier)) && this.products.filter(item=> this.brandValue.includes(item.brandTitle)))
       }
       if(this.supplierValue.length)
         return this.products.filter(item=> this.supplierValue.includes(item.supplier))
 
       if(this.brandValue.length)
-        return this.products.filter(item=> this.brandValue.includes(item.brandTitle))
+        return this.products.filter(item=> this.brandValue.includes(item.brandTitle))*/
+      if(this.brandValue.length && this.supplierValue.length){
+        let data = this.brandValue.concat(this.supplierValue)
+        return this.products.filter(item=> data.includes(item.supplier) && data.includes(item.brandTitle))
+      }
+
+      if(this.brandValue.length)
+        return this.filteredByOneOption(this.products,this.brandValue,'brandTitle')
+
+      if(this.supplierValue.length)
+        return this.filteredByOneOption(this.products,this.supplierValue,'supplier')
+
+
 
       return this.products
+    }
+  },
+  methods:{
+    filteredByOneOption(productArr,dataArr,property){
+      return productArr.filter(item=>dataArr.includes(item[property]))
     }
   }
 }
