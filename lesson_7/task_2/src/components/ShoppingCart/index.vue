@@ -13,7 +13,7 @@
            <div class="product-card__wrapper">
              <div class="product-card__block">
                <p class="product-card__title">Checkout</p>
-               <p class="product-card__price">{{getTotalPrice}} <span v-if="getTotalPrice>0">{{updateCurrency}}</span></p>
+               <p class="product-card__price">{{updateTotalPrice}} <span v-if="updateTotalPrice>0">{{updateCurrency}}</span></p>
              </div>
              <div class="product-card__block">
                <button @click="payAllProducts" class="product-card__button">Pay All</button>
@@ -39,7 +39,7 @@ export default {
     }
   },
   computed: {
-    ...mapGetters(['getTotalPrice','updateCurrency']),
+    ...mapGetters(['updateTotalPrice','updateCurrency']),
 
       },
   methods: {

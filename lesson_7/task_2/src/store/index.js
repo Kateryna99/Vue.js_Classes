@@ -19,15 +19,18 @@ export default createStore({
         getSelectedProduct(state) {
             return state.selectedProducts
         },
-        getTotalPrice(state) {
-            return state.totalPrice
-        },
         updateCurrency(state) {
             if (!state.currencyValue || state.currencyValue == 1)
                 return 'hrn'
             else return 'usd'
         },
-        getCurrentPrice: (state) => (price) => (price / state.currencyValue).toFixed(2)
+        getCurrentPrice: (state) => (price) => (price / state.currencyValue).toFixed(2),
+
+        updateTotalPrice(state) {
+            if(!state.currencyValue || state.currencyValue == 1)
+                return state.totalPrice
+            else return (state.totalPrice / state.currencyValue).toFixed(2)
+        },
 
     },
     mutations: {
