@@ -1,0 +1,51 @@
+ [
+    {
+        "id": 1,
+        "name": "Ivan",
+        "surname": "Ivanov",
+        "averageScore": 10,
+        "category": "Відмінник"
+    },
+    {
+        "id": 2,
+        "name": "Petr",
+        "surname": "Petrov",
+        "averageScore": 9,
+        "category": "Хорошист"
+    },
+    {
+        "id": 3,
+       " name": "Sidor",
+        "surname": "Sidorov",
+        "averageScore": 11,
+        "category": "Відмінник"
+    },
+    {
+        "id": 4,
+        "name": "Oleg",
+        "surname": "Olegov",
+        "averageScore": 12,
+        "category": "Відмінник"
+    },
+    {
+        "id": 5,
+        "name": "Vlad",
+        "surname": "Vladimirov",
+        "averageScore": 7,
+        "category": "Трійочник"
+    },
+    {
+        "id": 6,
+        "name": "Baba",
+        "surname": "Galya",
+        "averageScore": 35,
+        "category": "Блатник"
+    },
+    {
+        "id": 7,
+       " name": "Kolya",
+        "surname": "Pupkin",
+        "averageScore": 21,
+        "category": "Блатник"
+    }
+]

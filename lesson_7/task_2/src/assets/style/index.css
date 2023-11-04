@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+.product-list__wrapper {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-list__title {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.product-list__main {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-card__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  align-items: center;
+  gap: 20px;
+}
+.product-card__block {
+  display: flex;
+  justify-content: space-between;
+}
+.product-card__title {
+  font-size: 20px;
+}
+.product-card__price {
+  font-size: 18px;
+  color: red;
+}
+.product-card__button {
+  width: 100%;
+  border: 2px solid green;
+  padding: 5px 0;
+}
+
+/*# sourceMappingURL=index.css.map */
