@@ -1,0 +1,29 @@
+.data-page-content {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__block {
+  }
+
+  &__title {
+    font-size: 25px;
+  }
+
+  &__text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__item {
+    font-size: 18px;
+  }
+}

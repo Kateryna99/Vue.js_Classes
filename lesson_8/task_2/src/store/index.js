@@ -18,7 +18,7 @@ export default createStore({
             if (state.vehicleTypeValue) {
                 filteredList = filteredList.filter(car => car.type === state.vehicleTypeValue)}
 
-            if (state.vehicleBodyTypeValue.length > 0) {
+            if (state.vehicleBodyTypeValue.length) {
                 filteredList = filteredList.filter(car => state.vehicleBodyTypeValue.includes(car.bodyType))}
 
             if (state.vehicleModelType) {

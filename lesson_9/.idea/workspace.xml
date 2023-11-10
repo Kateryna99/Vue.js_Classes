@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77fba284-b44d-45b0-b528-fe7a4221a059" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lesson_8/task_1/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_8/task_1/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_8/task_1/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lesson_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/laptop1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/laptop2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/laptop3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/laptop4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/monito4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/monitor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/monitor2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/monitor3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/phones1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/phones2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/phones3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/phones4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/tv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/tv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/tv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/img/tv4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/common_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/common_style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/common_style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/reset.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/common_style/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/assets/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/components/HomeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/components/ProductItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/constants/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/views/ContactsContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/views/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/views/PaymentRules.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/views/ProductsContainer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/src/views/ShopView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_1/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.idea/task_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/views/AboutView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/src/views/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/task_2/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/task_2/src/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Xx5tZZjE4Y5wwtiKQlTWakn6QJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "SCSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "extract.css.actions.ExtractCSSConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77fba284-b44d-45b0-b528-fe7a4221a059" name="Changes" comment="" />
+      <created>1699558106246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699558106246</updated>
+      <workItem from="1699558107578" duration="7419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

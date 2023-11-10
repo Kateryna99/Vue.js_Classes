@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+.data__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.data__block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.data__title {
+  font-size: 35px;
+  color: #42b983;
+  letter-spacing: 1.5px;
+}
+.data__item {
+  display: flex;
+  gap: 15px;
+}
+.data__label {
+  max-width: 60px;
+  width: 100%;
+}
+.data__input {
+  max-width: 100px;
+  width: 100%;
+}
+.data__button {
+  padding: 5px 15px;
+  border: 2px solid black;
+  max-width: 150px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
