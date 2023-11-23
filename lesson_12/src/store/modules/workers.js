@@ -40,7 +40,6 @@ export default ({
             commit('deleteWorker', id)
             dispatch('interviews/deleteInterviewByWorkerId', id, {root: true})
             dispatch('interviews/deleteWorkerFromOptionListById', id, {root: true})
-            dispatch('interviews/deleteCandidateFromOptionListById', id, {root: true})
         },
         addWorker({commit}, worker) {
             commit('addWorker', worker)

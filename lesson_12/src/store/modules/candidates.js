@@ -39,6 +39,7 @@ export default ({
         deleteCandidateFromList({commit,dispatch}, id) {
             commit('deleteCandidate', id)
             dispatch('interviews/deleteInterviewByCandidateId', id, {root: true})
+            dispatch('interviews/deleteCandidateFromOptionListById', id, {root: true})
         },
         addCandidate({commit}, candidate) {
             commit('addCandidate', candidate)
