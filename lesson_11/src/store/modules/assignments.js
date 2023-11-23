@@ -33,7 +33,7 @@ export default ({
                 id: new Date().getTime(),
                 ...assignment
             })
-        }
+        },
         /*setAssignmentsObj(state, data){
             state.assignmentObj = data
         }*/
@@ -47,6 +47,9 @@ export default ({
         },*/
         addAssignment({commit}, assignment){
             commit('addAssignment', assignment)
+        },
+        deleteAssignmentByDriverID({commit}, id){
+            commit('deleteAssignmentByDriverID', id)
         }
     },
 

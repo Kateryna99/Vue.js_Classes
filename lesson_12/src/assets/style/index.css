@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+.company__wrapper {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.company__button {
+  border: 2px solid green;
+  padding: 7px 15px;
+}
+
+.interview {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.interview__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+.interview__wrapper--row {
+  flex-direction: row;
+}
+.interview__block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.interview__block--row {
+  flex-direction: row;
+  gap: 40px;
+  padding: 0;
+  border: none;
+}
+.interview__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interview__label {
+  font-size: 20px;
+}
+.interview__select {
+  border: 2px solid black;
+}
+.interview__title {
+  font-size: 30px;
+}
+.interview__text {
+  font-size: 20px;
+}
+.interview__button {
+  border: 2px solid red;
+  padding: 7px 25px;
+}
+
+.action__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+.action__block {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+.action__input {
+  border: 2px solid black;
+  padding: 4px 10px;
+}
+.action__button {
+  border: 2px solid green;
+  padding: 6px 40px;
+  font-size: 23px;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.action__button--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=index.css.map */

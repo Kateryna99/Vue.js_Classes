@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77fba284-b44d-45b0-b528-fe7a4221a059" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lesson_11/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/data.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/data.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/data.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/reset.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/common_style/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/assets/style/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/store/helpers/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/store/modules/assignments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/store/modules/busses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/store/modules/drivers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/assigments/AssigmentsView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/busses/BussesAction.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/busses/BussesView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/drivers/DriversActions.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/src/views/drivers/DriversView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson_11/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="77fba284-b44d-45b0-b528-fe7a4221a059" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

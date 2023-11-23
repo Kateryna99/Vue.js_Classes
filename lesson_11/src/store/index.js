@@ -4,7 +4,9 @@ import busses from "./modules/busses";
 import assignments from "./modules/assignments";
 
 export default createStore({
-  state: {},
+  state: {
+    category: "drivers",
+  },
   getters: {},
   mutations: {},
   actions: {},
