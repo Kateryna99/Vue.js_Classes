@@ -40,11 +40,14 @@ export default {
     ...mapActions(['setLessonsList']),
 
     sendToTeachersPage() {
+    console.log(this.lessons)
 
       this.$router.push(
           {
             name: 'teachers',
-            params: {lessonsIDList: this.lessons},
+            params: {
+              lessonsIDList: this.lessons
+            },
           })
     }
   },

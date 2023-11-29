@@ -39,21 +39,20 @@ const routes = [
         }
     },
     {
-        path: "/teachers/:lessonsIDList+",
+        path: "/teachers/:lessonsIDList*",
         name: "teachers",
         component: teachersView,
         meta: {
             requiresAuth: true,
         },
-        //Ця штука не працює, 2 години я намагалась щось зробити різними способами, але нічого не вийшло
-        /*beforeEnter: (to, from, next) => {
+        beforeEnter: (to, from, next) => {
             const data = to.params.lessonsIDList
             if(!data.length){
                 next({
                     name: 'lessons',
                 })
-            }
-        }*/
+            }else next()
+        }
     },
     {
        path: "/education/:educationSetUp*",
@@ -63,15 +62,14 @@ const routes = [
         meta: {
             requiresAuth: true,
         },
-        /*beforeEnter: (to, from, next) => {
-            const lessons = to.params.lessonsIDList
-            const teachers = to.params.teachers
-            if(!lessons.length || !teachers.length){
+        beforeEnter: (to, from, next) => {
+
+            if(!to.params.educationSetUp.length){
                 next({
                     name: 'page-not-found',
                 })
-            }
-        }*/
+            }else next()
+        },
     },
 
 

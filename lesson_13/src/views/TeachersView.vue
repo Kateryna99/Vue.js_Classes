@@ -45,18 +45,12 @@ export default {
         return;
       }
 
-      if (!this.educationSetup.length) {
-        this.$router.push({
-          name: 'page-not-found'
-        })
-      } else {
         this.$router.push({
           name: 'education',
           params: {
             educationSetUp: JSON.stringify(this.educationSetup)
           }
         })
-      }
     },
     initializeTeachers() {
       return this.getLessonsList.map(lessonId => ({
