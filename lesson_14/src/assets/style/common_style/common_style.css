@@ -1,0 +1,35 @@
+.shop__block {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.shop__block--row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shop__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.shop__title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.shop__text {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+.shop__img--small {
+  max-width: 50px;
+  width: 100%;
+}
+.shop__img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-position: center;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=common_style.css.map */
