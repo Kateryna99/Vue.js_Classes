@@ -1,0 +1,13 @@
+.data__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.data__header--row {
+  display: flex;
+}
+.data__title {
+  color: red;
+}
+
+/*# sourceMappingURL=common_style.css.map */

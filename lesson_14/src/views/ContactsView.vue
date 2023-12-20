@@ -61,7 +61,8 @@ export default {
         second: require('@/assets/img/food.jpg'),
         third: require('@/assets/img/product7.jpg'),
         fourth: require('@/assets/img/supplier2.jpg'),
-      }
+      },
+
     }
   }
 }
