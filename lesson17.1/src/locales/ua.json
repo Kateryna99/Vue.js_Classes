@@ -1,0 +1,12 @@
+{
+  "actionTitles": {
+    "login": "Вхід",
+    "logout": "Вийти"
+  },
+  "titles": {
+    "trader": "Продавець",
+    "brand": "Бренди"
+  },
+  "loginText": "Увійти за допомогою Google"
+
+}

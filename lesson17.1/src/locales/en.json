@@ -1,0 +1,12 @@
+{
+  "actionTitles": {
+      "login": "Login",
+    "logout": "Logout"
+  },
+  "titles": {
+    "trader": "Traders",
+    "brand": "Brands"
+  },
+  "loginText": "Login with Google"
+
+}
