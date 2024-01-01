@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+.data__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.data__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+}
+.data__main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.data__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.data__text {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.data__button {
+  border: 2px solid red;
+  padding: 5px 25px;
+}
+.data__button--green {
+  border-color: green;
+}
+.data__button:disabled {
+  border-color: gray;
+  color: gray;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.data__footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.data__input {
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=index.css.map */

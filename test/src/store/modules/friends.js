@@ -1,29 +1,23 @@
 import DbOperations from '../helpers/DbOperations'
-
-const collectionDB = new DbOperations('drivers')
-import {getFilteredList} from "@/store/helpers/data";
-
+const collectionDB = new DbOperations('friendsList')
 export default {
     namespaced: true,
     state: () => ({
-        driversList: [],
+        todoList: [],
         loading: false,
         error: null,
-        filterObj: {}
     }),
     getters: {
         isLoading: (state) => state.loading,
         hasError: (state) => state.error,
-        //getItemsList: (state) => state.driversList,
-        getDriverById: (state) => (itemId) => state.driversList.find((item) => item.id == itemId),
 
-        getFilteredDriversList: (state) => {
-            return state.driversList.filter(item => getFilteredList(item, state.filterObj))
-        }
+
+        getItemsList: (state) => state.todoList,
+        getItemById: (state) => (itemId) => state.todoList.find((item) => item.id == itemId),
     },
     mutations: {
         setItemsList(state, itemsList) {
-            state.driversList = itemsList
+            state.todoList = itemsList
         },
         setLoading(state, value) {
             state.loading = value
@@ -31,12 +25,9 @@ export default {
         setError(state, error) {
             state.error = error
         },
-        setFilterObj(state, value) {
-            state.filterObj = value
-        }
     },
     actions: {
-        loadList({commit}) {
+        loadList({ commit }) {
             commit('setError', null)
             commit('setLoading', true)
             collectionDB
@@ -51,7 +42,7 @@ export default {
                     commit('setLoading', false)
                 })
         },
-        addItem({commit, dispatch}, item) {
+        addItem({ commit, dispatch }, item) {
             commit('setError', null)
             commit('setLoading', true)
             collectionDB
@@ -66,7 +57,7 @@ export default {
                     commit('setLoading', false)
                 })
         },
-        deleteItem({commit, dispatch}, itemId) {
+        deleteItem({ commit, dispatch }, itemId) {
             commit('setError', null)
             commit('setLoading', true)
 
@@ -100,9 +91,20 @@ export default {
                     commit('setLoading', false)
                 })
         },
-        setFilterObj({commit}, value) {
-    commit('setFilterObj', value)
-},
-
+        loadFilteredData({ commit }, { fieldTitle, compareOperator, valueToCompare }) {
+            commit('setError', null)
+            commit('setLoading', true)
+            collectionDB
+                .loadFilteredData(fieldTitle, compareOperator, valueToCompare)
+                .then((list) => {
+                    commit('setItemsList', list)
+                })
+                .catch((error) => {
+                    commit('setError', error)
+                })
+                .finally(() => {
+                    commit('setLoading', false)
+                })
+        },
     },
 }

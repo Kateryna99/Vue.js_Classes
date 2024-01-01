@@ -67,16 +67,29 @@ export default {
       if(this.getRouterParamsCategory ==='drivers') {
         console.log(this.driver)
         if(this.getRouterParamsItem){
+          this.driver.id = this.getRouterParamsItem
           console.log(this.getRouterParamsItem)
-          this.updateItem({id:this.getRouterParamsItem,...this.driver})
-        } else this.addItem(this.driver)
+          this.updateItem({itemId:this.driver.id,
+            data:{
+              name:this.driver.name,
+              experience:this.driver.experience,
+            }});
+        }
+        else this.addItem(this.driver);
 
         this.$router.push({
           name: 'drivers'
         })
     }else {
-      if(this.getRouterParamsItem)
-        this.updateBus({...this.bus})
+      if(this.getRouterParamsItem){
+        this.bus.id = this.getRouterParamsItem
+        this.updateBus({itemId:this.bus.id,
+          data:{
+            busNumber:this.bus.busNumber,
+            placeAmount:this.bus.placeAmount,
+          }
+        });
+      }
       else this.addBus(this.bus)
 
         this.$router.push({

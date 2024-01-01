@@ -1,0 +1,7 @@
+.data__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=common_style.css.map */

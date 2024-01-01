@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+input {
+  width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+.data__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.data__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+}
+.data__main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.data__block {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.data__text {
+  font-size: 20px;
+}
+.data__button {
+  border: 2px solid red;
+  padding: 5px 20px;
+}
+.data__button--green {
+  border-color: green;
+}
+.data__button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.data__footer {
+  display: flex;
+  gap: 20px;
+}
+.data__label {
+  font-size: 22px;
+  font-weight: bold;
+}
+.data__input {
+  border: 2px solid black;
+  width: 140px;
+}
+.data__select {
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=index.css.map */
